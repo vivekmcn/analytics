@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900');
+
+h1, h2, h3, h4 {
+    color: #000 !important;
+    font-family: 'Oswald', sans-serif !important;
+}
+nav li p, nav li a, .brand-text{
+    color: #9e9e9e !important;
+}
+div, span, p, a {
+    color: #000 !important;
+}
+body {
+    font-family: 'Open Sans', sans-serif !important;
+}
+.btn-primary, .page-item.active .page-link{
+    background-color: #fff !important;
+    color: #000 !important;
+    border: 1px solid #58c479;
+}
+.small-box .icon>i.fa, .small-box .icon>i.fab, .small-box .icon>i.fad, .small-box .icon>i.fal, .small-box .icon>i.far, .small-box .icon>i.fas, .small-box .icon>i.ion{
+    font-size: 20px !important;
+    top: 80px !important;
+}
+.bg-info-new {
+    background-color: #fff!important !important;
+}
+#exportarea{
+    visibility: hidden;
+}
+.col-lg-2 .small-box h3, .col-md-2 .small-box h3, .col-xl-2 .small-box h3{
+    font-size: 30px;
+}
+.table td .fa{
+    font-size: 9px !important;
+    padding-left: 5px;
+}
+.table.td{
+    vertical-align: middle;
+}
+.table td.center{
+    text-align:center !important;
+}
+.table th.center{
+    text-align:center !important;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover{
+    background: #fff !important;
+    box-shadow: inset 0px 0px 0px 0px #fff !important;
+    border: 0px solid #fff !important;
+}
+.table th i.fa{
+    font-size: 9px !important;
+}
+td.EF_event_title {
+    width: 50px;
+    background: url('http://www.datatables.net/examples/resources/details_open.png') no-repeat center center;
+    cursor: pointer;
+}
+tr.shown td.EF_event_title {
+    width: 50px;
+    background: url('http://www.datatables.net/examples/resources/details_close.png') no-repeat center center;
+}
+.childsubtable{
+    margin-left:50px;
+    width: calc(100% - 50px);
+}
+.word-ellipse span{
+    white-space: nowrap;
+    width: 170px;
+    float: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#exportarea{
+    display: none;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 10vh;
+}
+
+.switch {
+  top: 40px;
+  position: absolute;
+  right: 7px;
+  display: inline-block;
+  width: 90px;
+  height: 34px;
+  z-index: 999;
+}
+
+.switch input {display:none;}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #E9ECEF;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #58c479;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(55px);
+  -ms-transform: translateX(55px);
+  transform: translateX(55px);
+}
+
+/*------ ADDED CSS ---------*/
+.on
+{
+  color: #fff !important;
+  display: none;
+  padding-right: 10px;
+}
+
+.off{
+    color: #000 !important;
+    padding-left: 10px;
+}
+
+.on, .off
+{
+  color: white;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 50%;
+  left: 50%;
+  font-size: 10px;
+  font-family: Verdana, sans-serif;
+}
+
+input:checked+ .slider .on
+{display: block;}
+
+input:checked + .slider .off
+{display: none;}
+
+/*--------- END --------*/
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;}
+td.number{
+    text-align: center;
+}
+.table-striped td, .table-striped th{
+    padding: 8px 10px !important;
+}
+.dataTables_filter{
+    position: relative;
+}
+.dataTables_filter i{
+    position: absolute;
+    left: -20px;
+    top: 8px;
+}
